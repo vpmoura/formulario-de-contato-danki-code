@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato,sans-serif;
+}
+
+body {
+    background-color: #27282d;
+}
+.form{
+    text-align: center;
+    padding:20px;
+    box-shadow: rgb(27, 27, 27) 1px 1px 5px 5px;
+    max-width: 500px;
+    width: 100%;
+    margin: 140px auto;
+    border-radius: 20px;
+    border: 1px solid rgb(39, 39, 39);
+
+}
+.form img{
+    max-width: 500px;
+    width: 100%;
+}
+
+.form input[type="text"],
+.form input[type="email"]{
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid black;
+    display: flex;
+    margin: 10px auto;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    box-shadow: rgb(29, 26, 26) 1px 1px 1px 1px;
+
+}
+
+.form textarea{
+    border: 1px solid black;
+    resize: vertical;
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 500px;
+    width: 100%;
+    height: 120px;
+    box-shadow: rgb(29, 26, 26) 1px 1px 1px 1px;
+    font-size: 16px;
+
+}
+
+.form input[type="submit"]{
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    display: block;
+    margin: 10px auto;
+    padding-left: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: #571aad;
+    border: 1px solid black;
+    box-shadow: rgb(29, 26, 26) 1px 1px 1px 1px;
+
+    
+}
